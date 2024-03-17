@@ -129,16 +129,21 @@ header * {
     background: #f4f4f4;
 }
 
-#about .title {
+#about .title,
+#offers .title {
     text-align: center;
     margin-bottom: 4rem;
 
 }
 
-#about h2 {
+#about h2,
+#offers h2 {
     font-size: 40px;
-    color: #383848;
     margin-bottom: 20px;
+}
+
+#about h2 {
+    color: #383848;
 }
 
 #about .title p {
@@ -166,3 +171,52 @@ header * {
 }
 
 /* About End */
+
+/* Offers Start */
+#offers {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background: url('./img/offer-background.jpg') center center/cover fixed;
+}
+
+#offers h2 {
+    color: orange;
+}
+
+#offers .title p {
+    color: white;
+    font-weight: 500;
+}
+
+#offers .offers-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#offers .offers-items img {
+    width: 200px;
+}
+
+#offers .offers-items h3 {
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+#offers .offers-items p {
+    font-size: 14px;
+    padding: 0 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+#offers .offers-items span {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+/* Offers End */
