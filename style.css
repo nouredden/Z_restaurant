@@ -35,8 +35,21 @@ a {
     border: 1px solid antiquewhite;
 }
 
-.btn-primary:hover {
+.btn-secondary {
+    color: antiquewhite;
+    border: 1px solid antiquewhite;
+    background: #383848;
+    margin-top: 2rem;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
     background: orange;
+}
+
+.container {
+    width: 1141px;
+    margin: auto;
 }
 
 /* Header Start */
@@ -105,3 +118,51 @@ header * {
 }
 
 /* Header End */
+
+/* About Start */
+
+#about {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+}
+
+#about .title {
+    text-align: center;
+    margin-bottom: 4rem;
+
+}
+
+#about h2 {
+    font-size: 40px;
+    color: #383848;
+    margin-bottom: 20px;
+}
+
+#about .title p {
+    font-size: 14px;
+    color: #9a9a9a;
+    font-weight: 600;
+}
+
+#about .about-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#about .about-content img {
+    width: 450px;
+}
+
+#about .about-content p {
+    color: #9a9a9a;
+    margin-right: 7rem;
+    font-weight: 500;
+    line-height: 1.7;
+
+}
+
+/* About End */
