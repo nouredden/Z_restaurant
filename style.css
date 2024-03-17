@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Utility Classes */
+.primary-text {
+    color: orange;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn-primary {
+    color: antiquewhite;
+    border: 1px solid antiquewhite;
+}
+
+.btn-primary:hover {
+    background: orange;
+}
+
+/* Header Start */
+header {
+    height: 100vh;
+    background: url('./img/home_bg.jpeg') center center/cover no-repeat;
+    position: relative;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar img {
+    width: 80px;
+    margin-left: 100px;
+}
+
+#navbar ul {
+    display: flex;
+    margin-right: 100px;
+}
+
+#navbar ul li a {
+    padding: 15px 20px;
+    color: antiquewhite;
+    font-weight: 600;
+}
+
+#navbar ul li a:hover {
+    border-bottom: 2px solid #b4b95b;
+}
+
+header .content {
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .content h1 {
+    font-size: 40px;
+    color: antiquewhite;
+}
+
+header .content p {
+    margin: 20px 0px 40px;
+    color: antiquewhite;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.6);
+}
+
+header * {
+    z-index: 10;
+}
+
+/* Header End */
