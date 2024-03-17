@@ -122,7 +122,7 @@ header * {
 /* About Start */
 
 #about {
-    height: 80vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,23 +130,27 @@ header * {
 }
 
 #about .title,
-#offers .title {
+#offers .title,
+#menu .title {
     text-align: center;
     margin-bottom: 4rem;
 
 }
 
 #about h2,
-#offers h2 {
+#offers h2,
+#menu h2 {
     font-size: 40px;
     margin-bottom: 20px;
 }
 
-#about h2 {
+#about h2,
+#menu h2 {
     color: #383848;
 }
 
-#about .title p {
+#about .title p,
+#menu .title p {
     font-size: 14px;
     color: #9a9a9a;
     font-weight: 600;
@@ -220,3 +224,55 @@ header * {
 }
 
 /* Offers End */
+/* Menu start */
+#menu {
+    background: #f4f4f4;
+    padding: 5rem 0;
+}
+
+#menu .menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu .menu-items .menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+#menu .menu-items .menu-item img {
+    width: 80px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#menu .menu-items .menu-item h3 {
+    color: #383848;
+    border-bottom: 1px dashed #c2bdbd;
+    padding-bottom: 10px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#menu .menu-items .menu-item span {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#menu .btn {
+    display: block;
+    margin: 20px auto 0;
+    background: orange;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+#menu .btn:hover {
+    background: #383848;
+}
+
+/* Menu end */
