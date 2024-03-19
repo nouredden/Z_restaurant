@@ -21,6 +21,7 @@ ul {
 a {
     text-decoration: none;
 }
+
 /* Scroll Up */
 .scroll-up {
     position: fixed;
@@ -37,6 +38,8 @@ a {
 .scroll-up:hover {
     background: orange;
 }
+
+
 /* Utility Classes */
 .primary-text {
     color: orange;
