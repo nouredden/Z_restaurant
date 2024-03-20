@@ -429,7 +429,7 @@ form input,
 textarea {
     display: block;
     width: 100%;
-    padding: 20px 10px;
+    padding: 20px 20px;
     margin: 20px 0;
     border: none;
     background-color: #e3e3e3;
@@ -604,7 +604,120 @@ footer a {
         border-bottom: #9a9a9a dashed 1px;
     }
 
+
+    form {
+        width: 80%;
+    }
+
+    #contact .btn {
+        margin-bottom: 20px;
+    }
+
     /* Contact End */
+
+}
+
+
+@media (max-width: 667px) {
+
+    #about h2,
+    #offers h2,
+    #menu h2,
+    #gallery h2 {
+        font-size: 28px;
+        margin-bottom: 14px;
+    }
+
+    header {
+        width: auto;
+    }
+
+
+    #navbar ul li a {
+        padding: 5px 10px;
+    }
+
+    header .content h1 {
+        font-size: 28px;
+    }
+
+    #offers .offers-items img {
+        width: 160px;
+    }
+
+
+
+    /* Menu start */
+    #menu {
+        padding: 30px 10px;
+    }
+
+
+
+
+    #menu .menu-items .menu-item {
+        margin: 5px;
+        margin-bottom: 15px;
+    }
+
+    #menu .menu-items .menu-item p {
+        width: auto;
+    }
+
+    #menu .menu-items .menu-item span {
+        position: absolute;
+        top: 0;
+        right: 10px;
+    }
+
+    #menu .menu-items .menu-item img {
+        width: 100px;
+        border-radius: 50%;
+        margin: 10px;
+    }
+
+    /* Menu End */
+    /* Daytime Start */
+
+
+    #daytime .daytime-items h3 {
+        font-size: 24px;
+        margin: 20px 0;
+    }
+
+
+
+    /* Daytime End */
+    /* Gallery Start */
+
+    #gallery .img-gallery img {
+        width: 280px;
+        height: 200px;
+        border-radius: 18px;
+        margin: 18px;
+    }
+
+    /* Gallery End */
+    /* Contact Start */
+
+    #contact {
+        padding: 0.1rem;
+    }
+
+    #contact .contact-content {
+        flex-direction: column;
+    }
+
+    #contact .contact-content .contact-info {
+        width: 90%;
+
+        text-align: left;
+        padding-bottom: 15px;
+        border-bottom: #9a9a9a dashed 1px;
+    }
+
+    /* Contact End */
+
 
 }
 
