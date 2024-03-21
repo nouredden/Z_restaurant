@@ -36,14 +36,14 @@ a {
 }
 
 .scroll-up:hover {
-    background: orange;
+    background: #c32148;
 }
 
 /* Scroll up End */
 
 /* Utility Classes */
 .primary-text {
-    color: orange;
+    color: #c32148;
 }
 
 .btn {
@@ -67,7 +67,7 @@ a {
 
 .btn-primary:hover,
 .btn-secondary:hover {
-    background: orange;
+    background: #c32148;
 }
 
 .container {
@@ -211,7 +211,7 @@ header * {
 }
 
 #offers h2 {
-    color: orange;
+    color: #c32148;
 }
 
 #offers .title p {
@@ -231,7 +231,8 @@ header * {
     width: 200px;
 }
 
-#offers .offers-items h3 {
+#offers .offers-items h3,
+#order_now .ordernow-content h3 {
     font-size: 25px;
     margin: 15px 0;
 }
@@ -294,7 +295,7 @@ header * {
 #menu .btn {
     display: block;
     margin: 20px auto 0;
-    background: orange;
+    background: #c32148;
     color: antiquewhite;
     cursor: pointer;
 }
@@ -363,9 +364,46 @@ header * {
     opacity: 1;
 }
 
-
-
 /* Gallery End */
+/* ordernow start */
+#order_now {
+    padding: 4rem;
+    margin: auto;
+}
+
+#order_now .ordernow-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+#order_now .ordernow-content .container {
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#order_now .ordernow-content h3 {
+    text-shadow: 2px 2px 3px #c32148;
+}
+
+.btn-order img {
+    width: 280px;
+    border: solid 1px #b1b1b1;
+    border-radius: 50%;
+
+}
+
+.btn-order img:hover {
+    box-shadow: 0 0 5px #c32148;
+}
+
+/* ordernow end */
+
 /* Contact Start */
 #contact {
     padding: 5rem 0;
@@ -404,7 +442,7 @@ header * {
 }
 
 #contact .contact-content .contact-info i {
-    color: orange;
+    color: #c32148;
     margin-right: 5px;
 }
 
@@ -417,7 +455,7 @@ header * {
 }
 
 #contact .contact-content .contact-info a i:hover {
-    background-color: orange;
+    background-color: #c32148;
     color: #383848;
 }
 
@@ -437,7 +475,7 @@ textarea {
 }
 
 #contact .btn {
-    background: orange;
+    background: #c32148;
     color: antiquewhite;
 }
 
@@ -585,6 +623,28 @@ footer a {
     }
 
     /* Gallery End */
+    #order_now {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.1rem;
+    }
+
+
+    #order_now .ordernow-content .container {
+
+        flex-direction: column;
+    }
+
+    #order_now .ordernow-content h3 {
+        font-size: 22px;
+    }
+
+    .btn-order img {
+        width: 180px;
+        margin: 30px 0;
+    }
+
     /* Contact Start */
 
 
