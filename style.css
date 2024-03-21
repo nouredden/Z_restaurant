@@ -330,6 +330,8 @@ header * {
     font-weight: 500;
 }
 
+
+
 /* Daytime End */
 
 /* Gallery Start */
@@ -367,7 +369,10 @@ header * {
 /* Gallery End */
 /* ordernow start */
 #order_now {
-    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 4rem; */
     margin: auto;
 }
 
@@ -604,6 +609,8 @@ footer a {
         padding-bottom: 15px;
     }
 
+
+
     /* Daytime End */
     /* Gallery Start */
     #gallery {
@@ -624,9 +631,9 @@ footer a {
 
     /* Gallery End */
     #order_now {
-        display: flex;
+        /* display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
         padding: 0.1rem;
     }
 
