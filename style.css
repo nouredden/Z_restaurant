@@ -41,6 +41,26 @@ a {
 
 /* Scroll up End */
 
+/* whatsapp Start */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp img {
+    width: 60px;
+}
+
+.whatsapp:hover {
+    box-shadow: 0 0 1px rgba(99, 246, 92, 0.2);
+}
+
+/* whatsapp End */
+
 /* Utility Classes */
 .primary-text {
     color: #c32148;
@@ -372,7 +392,6 @@ header * {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 4rem; */
     margin: auto;
 }
 
