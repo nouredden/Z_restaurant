@@ -255,6 +255,8 @@ header * {
 #order_now .ordernow-content h3 {
     font-size: 25px;
     margin: 15px 0;
+    text-align: center;
+    text-wrap: wrap;
 }
 
 #offers .offers-items p {
@@ -706,6 +708,14 @@ footer a {
 
 @media (max-width: 667px) {
 
+    html {
+        height: -webkit-fill-available;
+    }
+
+    body {
+        height: -webkit-fill-available;
+    }
+
     #about h2,
     #offers h2,
     #menu h2,
@@ -803,6 +813,16 @@ footer a {
     }
 
     /* Contact End */
+
+    .scroll-up {
+        font-size: 16px;
+        padding: 4px 8px;
+    }
+
+
+    .whatsapp img {
+        width: 50px;
+    }
 
 
 }
