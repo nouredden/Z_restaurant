@@ -325,6 +325,14 @@ header * {
     cursor: pointer;
 }
 
+#menu .btn a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 #menu .btn:hover {
     background: #383848;
 }
@@ -332,7 +340,7 @@ header * {
 /* Menu end */
 /* Daytime Start */
 #daytime {
-    background: url("./img/daytime_bg.jpeg") center center/cover fixed no-repeat;
+    background: url("./img/daytime_bg.jpg") center/cover fixed no-repeat;
     color: white;
     text-align: center;
     display: flex;
@@ -401,32 +409,29 @@ header * {
     justify-content: center;
     align-items: center;
     margin: auto;
+    padding: 3rem;
+    height: auto;
 }
 
 #order_now .ordernow-content {
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-    margin: auto;
+    gap: 5%;
+
 }
 
-#order_now .ordernow-content .container {
-    margin: auto;
-    padding: 2rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
-#order_now .ordernow-content h3 {
+#order_now h3 {
+    margin-bottom: 2rem;
+    text-align: center;
     text-shadow: 2px 2px 3px #c32148;
 }
 
 .btn-order img {
-    width: 280px;
+    width: 180px;
     border: solid 1px #b1b1b1;
-    border-radius: 50%;
+    border-radius: 20%;
 
 }
 
@@ -445,7 +450,7 @@ header * {
 }
 
 #contact .container {
-    max-width: 920px;
+    max-width: 1000px;
 }
 
 #contact .contact-content {
@@ -641,8 +646,6 @@ footer a {
         padding-bottom: 15px;
     }
 
-
-
     /* Daytime End */
     /* Gallery Start */
     #gallery {
@@ -663,24 +666,22 @@ footer a {
 
     /* Gallery End */
     #order_now {
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
+
         padding: 0.1rem;
     }
 
 
-    #order_now .ordernow-content .container {
+    #order_now h3 {
+        padding-top: 1rem;
+        font-size: 22px;
+    }
+
+    #order_now .ordernow-content {
 
         flex-direction: column;
     }
 
-    #order_now .ordernow-content h3 {
-        font-size: 22px;
-    }
-
     .btn-order img {
-        width: 180px;
         margin: 30px 0;
     }
 
@@ -717,7 +718,6 @@ footer a {
     /* Contact End */
 
 }
-
 
 @media (max-width: 667px) {
 
@@ -766,9 +766,6 @@ footer a {
         padding: 30px 10px;
     }
 
-
-
-
     #menu .menu-items .menu-item {
         margin: 5px;
         margin-bottom: 15px;
@@ -799,8 +796,6 @@ footer a {
         margin: 20px 0;
     }
 
-
-
     /* Daytime End */
     /* Gallery Start */
 
@@ -812,6 +807,8 @@ footer a {
     }
 
     /* Gallery End */
+
+
     /* Contact Start */
 
     #contact {
