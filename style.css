@@ -27,11 +27,11 @@ a {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    font-size: 18px;
+    font-size: 16px;
     background: #9a9a9a;
     color: white;
-    padding: 5px 10px;
-    border-radius: 25%;
+    padding: 8px 12px;
+    border-radius: 20%;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -49,14 +49,17 @@ a {
     padding: 0;
     border-radius: 50%;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    width: 60px;
+    transition: 0.3s;
 }
 
 .whatsapp img {
-    width: 60px;
+    width: 100%;
 }
 
 .whatsapp:hover {
     box-shadow: 0 0 1px rgba(99, 246, 92, 0.2);
+    width: 70px;
 }
 
 /* whatsapp End */
@@ -91,7 +94,7 @@ a {
 }
 
 .container {
-    width: 1141px;
+    max-width: 1141px;
     margin: auto;
 }
 
@@ -139,7 +142,7 @@ header .content {
 }
 
 header .content h1 {
-    font-size: 40px;
+    font-size: 5vw;
     color: antiquewhite;
 }
 
@@ -186,7 +189,7 @@ header * {
 #offers h2,
 #menu h2,
 #gallery h2 {
-    font-size: 40px;
+    font-size: 4vw;
     margin-bottom: 20px;
 }
 
@@ -197,7 +200,7 @@ header * {
 
 #about .title p,
 #menu .title p {
-    font-size: 14px;
+    font-size: 16px;
     color: #9a9a9a;
     font-weight: 600;
 }
@@ -253,21 +256,21 @@ header * {
 
 #offers .offers-items h3,
 #order_now .ordernow-content h3 {
-    font-size: 25px;
+    font-size: 24px;
     margin: 15px 0;
     text-align: center;
     text-wrap: wrap;
 }
 
 #offers .offers-items p {
-    font-size: 14px;
+    font-size: 16px;
     padding: 0 20px;
     font-weight: 300;
     margin-bottom: 15px;
 }
 
 #offers .offers-items span {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     margin-left: 15px;
 }
@@ -333,18 +336,21 @@ header * {
     color: white;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 #daytime .daytime-items {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    height: 40vh;
+    height: 60vh;
+}
+
+#daytime .daytime-items .daytime-item {
+    margin: auto 50px;
 }
 
 #daytime .daytime-items h3 {
-    font-size: 32px;
+    font-size: 24px;
     margin: 20px 0;
 }
 
@@ -458,7 +464,7 @@ header * {
 }
 
 #contact .contact-content .contact-info h3 {
-    font-size: 28px;
+    font-size: 24px;
     color: #383848;
     margin-bottom: 10px;
 }
@@ -477,7 +483,7 @@ header * {
     background-color: #383848;
     padding: 12px;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 #contact .contact-content .contact-info a i:hover {
@@ -526,7 +532,12 @@ footer a {
 
 /* Footer End */
 /* Responsive Start*/
-@media (max-width: 1000px) {
+@media (max-width: 1023px) {
+    .container {
+        max-width: 800px;
+        overflow: hidden;
+    }
+
     #navbar {
         flex-direction: column;
     }
@@ -674,7 +685,9 @@ footer a {
     }
 
     /* Contact Start */
-
+    #contact .container {
+        max-width: 720px;
+    }
 
     #contact {
         padding: 1rem;
@@ -707,6 +720,11 @@ footer a {
 
 
 @media (max-width: 667px) {
+
+    .container {
+        max-width: 600px;
+        overflow: hidden;
+    }
 
     html {
         height: -webkit-fill-available;
@@ -813,11 +831,6 @@ footer a {
     }
 
     /* Contact End */
-
-    .scroll-up {
-        font-size: 16px;
-        padding: 4px 8px;
-    }
 
 
     .whatsapp img {
