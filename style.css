@@ -76,9 +76,19 @@ a {
     border-radius: 15px;
 }
 
-.btn-primary {
+.btn-primary,
+.btn-primary2 {
     color: antiquewhite;
     border: 1px solid antiquewhite;
+    transition: 0.93s;
+}
+
+.btn-primary2 {
+    box-shadow: 0 0 5px #b62245;
+}
+
+.btn-primary2:hover {
+    box-shadow: 0 0 17px #b62245;
 }
 
 .btn-secondary {
@@ -89,6 +99,7 @@ a {
 }
 
 .btn-primary:hover,
+.btn-primary2:hover,
 .btn-secondary:hover {
     background: #c32148;
 }
