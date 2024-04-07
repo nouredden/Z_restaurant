@@ -36,6 +36,8 @@
             <h1>Welcome To <span class="primary-text">west food</span> Restaurant</h1>
             <p>Here you can find the Most deliscious food in the world</p>
             <a href="#contact" class="btn btn-primary">Book a Table</a>
+            <br><br>
+            <a href="#order_now" class="btn btn-primary2">Order Now</a>
         </div>
 
 
@@ -312,11 +314,12 @@
                             <a href="#"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                     </div>
-                    <form>
+                    <form action="https://formsubmit.co/nourwo@gmail.com" method="post">
                         <input type="text" name="Name" id="Name" placeholder="Full Name" required>
                         <input type="email" name="Email" id="Email" placeholder="someone@gmail.com" required>
                         <input type="text" name="Subject" id="Subject" placeholder="Subject" required>
-                        <textarea name="Message" id="Message" cols="30" rows="5" placeholder="your message"></textarea>
+                        <textarea name="Message" id="Message" cols="30" rows="5" placeholder="your message"
+                            style="resize: none;"></textarea>
                         <button type="submit" class="btn">Send Message</button>
                     </form>
 
@@ -338,14 +341,7 @@
         <!-- Footer End -->
     </main>
 </body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-    (function () {
-        emailjs.init({
-            publicKey: "tsXICzQWbUcKBKjG8",
-        });
-    })();
-</script>
+
+
 
 </html>
